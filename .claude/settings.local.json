@@ -1,8 +1,35 @@
 {
   "permissions": {
-    "defaultMode": "bypassPermissions",
     "allow": [
       "mcp__pa-blackfoxstudionz-com",
+      "mcp__pa-blackfoxstudionz-com__*",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-update-element-settings",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-get-element-settings",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-get-page-structure",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-add-container",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-add-flexbox",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-insert-widget",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-remove-element",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-list-media",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-list-pages",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-get-widget-schema",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-get-global-settings",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-get-theme-styles",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-get-design-guide",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-get-id-by-title",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-check-elementor-element",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-update-setting",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-get-settings",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-get-theme-info",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-list-templates",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-list-available-elements",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-scan-usage",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-export-elements",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-import-elements",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-upload-media",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-create-page",
+      "mcp__pa-blackfoxstudionz-com__premium-addons-clear-dynamic-assets",
+      "Bash",
       "Bash(node:*)",
       "Bash(npx:*)",
       "Bash(npm:*)",
@@ -19,7 +46,10 @@
       "Glob",
       "Grep",
       "WebFetch",
-      "WebSearch"
-    ]
+      "WebSearch",
+      "Bash(cp /root/.claude.json /root/.claude.json.bak)",
+      "Bash(python3 -)"
+    ],
+    "defaultMode": "bypassPermissions"
   }
 }
