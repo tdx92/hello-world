@@ -1,12 +1,25 @@
 {
   "permissions": {
+    "defaultMode": "bypassPermissions",
     "allow": [
       "mcp__pa-blackfoxstudionz-com",
       "Bash(node:*)",
-      "Bash(curl:*)",
       "Bash(npx:*)",
+      "Bash(npm:*)",
+      "Bash(curl:*)",
       "Bash(grep:*)",
-      "Bash(python3:*)"
+      "Bash(sed:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(python3:*)",
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch"
     ]
   }
 }
