@@ -1,6 +1,6 @@
 # Blackfox Studio: brand brief
 
-Everything here comes from the owner, in their own words, or from the live site at blackfoxstudionz.com. Nothing is invented. If a fact is not here or on the site, ask the owner. Do not fill gaps.
+Everything here comes from Marco and the Blackfox team, in their own words, or from the live site at blackfoxstudionz.com. Nothing is invented. If a fact is not here or on the site, ask the owner. Do not fill gaps.
 
 ## The business
 
@@ -12,7 +12,7 @@ Everything here comes from the owner, in their own words, or from the live site 
 - **Website:** blackfoxstudionz.com, currently WordPress + Elementor Pro on Hostinger.
 - **Social:** Instagram https://www.instagram.com/blackfoxstudionz/ and Facebook https://www.facebook.com/blackfoxstudionz/
 - **Contact:** the enquiry form only. No public email or phone number has been given. Do not invent one.
-- **Selling:** there is no online checkout today. Sales happen through enquiries. Whether the new site should add online selling is an open decision for the owner.
+- **Selling:** decided: the site stays **enquiry-led**. No online checkout. Every sale starts with an enquiry.
 
 ## The core idea
 
@@ -64,11 +64,12 @@ Indicative prices as given by the owner, in NZD:
 | **Gendai lamp** | around 350 | A sculptural timber object; the charred surface is part of the light. Fire, shadow and texture. |
 | **Wall art** | 150 to 300 | A lower-priced way into Blackfox, ahead of furniture |
 | **Custom aquarium cabinets** | around 1,000 for a 90P cabinet | Built by someone with real aquascaping experience |
+| **Living frames** | not given yet, ask | A light timber frame holding a sculptural branch planted with air plants, signed with a small engraved Blackfox tag. The branch has copper tones and a thin gold line; ask what they are before describing them. |
 | **Custom work** | by enquiry | Dimensions, timber, finish, colour, finish combinations, new forms |
 
 The live site shows these as "from" prices: coffee tables from NZ$700, lamps from NZ$350, wall art from NZ$150, aquarium cabinets from NZ$1,000, custom by enquiry, labelled as indicative.
 
-**Other ideas, not yet core:** plant frames, clocks (one concept uses four different pieces of wood), wall pieces, other decorative objects. Acrylic-painted pizza artwork is an experiment, not a Blackfox product; keep it off the site unless the owner asks.
+**Other ideas, not yet core:** clocks (one concept uses four different pieces of wood), wall pieces, other decorative objects. Acrylic-painted pizza artwork is an experiment, not a Blackfox product; keep it off the site unless the owner asks.
 
 **Branding on the furniture:** subtle. The logo is never the focal point.
 
@@ -131,14 +132,18 @@ For continuity, the current site uses: background `#0D0C0B`, cards `#1A1714`, go
 
 | File | What it shows |
 |---|---|
-| DKP4542 | Dark coffee table with open trapezoid legs, in a living room |
-| DKP4503 | Low dark plank table on solid legs |
+| DKP4542 | The **trapezoid-leg coffee table**, in a living room (confirmed) |
+| DKP4503 | The **Gendai coffee table**, low and on solid legs |
 | DKP4459 | Live-edge detail |
 | DKP4485 | Charred grain close-up |
 | DKP4522 | Leg and edge detail, gold grain under the char (portrait) |
 | DKP4589 / DKP4589-1 | Marco in the workshop, using a circular saw |
 | DKP4625 | Marco with the torch in the workshop |
 | lamp.png | The real LED timber lamp |
+| Studio shot, white backdrop (1.webp) | Gendai coffee table, solid legs |
+| Studio shot, white backdrop (2.webp) | Trapezoid-leg coffee table |
+| Living frame in golden light (3.webp) | A living frame on a charred board. Strong enough for a hero image. |
+| Living frame video (12 s, 1024 × 576) | Close-ups of a living frame, ending on the engraved Blackfox tag |
 
 **AI-styled images the owner approved and asked to be used:**
 
@@ -148,10 +153,10 @@ For continuity, the current site uses: background `#0D0C0B`, cards `#1A1714`, go
 | Rustic-Dark-Wood-Aquarium-Cabinet-in-Warm-Interior.png (square) | Aquarium cabinets, everywhere cabinets appear |
 
 **Never use:**
-- Any `.webp` file in the media library. The owner confirmed they are all stock.
+- The template's stock `.webp` files in the media library. The owner confirmed those are all stock. (The team's own new photos arrived as `.webp` and are fine to use.)
 - Template leftovers: lo1 to lo4.png, placeholder.png, Crafter-Company-logo.webp, 11/12/13-2.jpg.
 
-**Gaps:** no photos yet of wall art, plant frames or planters, clocks, or a finished real aquarium cabinet. The owner is happy with placeholders there and will add photos later.
+**Gaps:** no photos yet of wall art, clocks, a swatch of each finish, or a finished real aquarium cabinet. The owner is happy with placeholders there and will add photos later.
 
 ## Rules
 
@@ -166,10 +171,20 @@ For continuity, the current site uses: background `#0D0C0B`, cards `#1A1714`, go
 - **Contact form:** first name, last name, email, subject, comments. No delivery address for enquiries has been confirmed; send a test enquiry before relying on it.
 - **Footer links** to Terms & Conditions and Privacy Policy had no pages behind them. No policy text exists; do not write legal text without the owner.
 
+## Feedback received
+
+- Someone who saw the site said it is probably **a tad too dark**.
+- On desktop, the hero's **left side is too dark**: even with the cursor torch, it can't really be seen.
+- The orange scroll line is liked; the team would like it to **look more like fire**.
+
+## Where the live design comes from
+
+The current site is Palate design option C, "Ember scenes", with the "Torchlight" opening, ported into a custom WordPress plugin, `blackfox-elementor` (v1.3.3). Its CSS says it is generated by `build/port-css.mjs` and `build/extra.css`: edit those sources, never the generated files on the server.
+
 ## Open questions for the owner
 
-1. Which photo is which table: is DKP4542 the trapezoid-leg table and DKP4503 the Gendai table? The site uses that pairing, but it was never confirmed.
-2. Should the new site sell online with a checkout, or stay enquiry-led?
-3. Which email address should enquiries and the site show? Show a phone number or not?
-4. Hikari was described as "light, warm, heavily textured". Is that the full description?
-5. The name's styling: "Blackfox Studio" everywhere, including the site title?
+1. **Living frames:** price, sizes, whether the air plants are included, what the branch's copper tones and gold line are, and how buyers should care for the plants.
+2. Which email address should enquiries and the site show? Show a phone number or not?
+3. Hikari was described as "light, warm, heavily textured". Is that the full description?
+4. The name's styling: "Blackfox Studio" everywhere, including the site title?
+5. Where does the source for the `blackfox-elementor` plugin live?
